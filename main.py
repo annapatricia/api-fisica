@@ -2,5 +2,5 @@ from fastapi import FastAPI
 app = FastAPI(title="API Saúde Pública")
 @app.get("/")
 def home():
-    return {"mensagem": "Sistema de perguntas fisica"}
+    return {"mensagem": "Sistema de perguntas da materia de fisica"}
 
